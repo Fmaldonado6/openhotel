@@ -38,7 +38,6 @@ export const getRoom =
         startPosition.y = getYFromPoint(startPosition);
       }
 
-      $user.setLastMessage(null);
       $user.setRoom(room.id);
       $user.setPosition(startPosition);
       $user.setBodyDirection(getSpawnDirection());
